@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LUNA</title>
+  <!-- 웹폰트 -->
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+  <!-- bx slider CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- bx slider JS -->
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <!-- 상품데이터 -->
+  <script src="js/data.js"></script>
+  <!-- 사용자 자바스크립트 -->
+  <script src="js/main.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header id="main_header">
+    <div class="container">
+      <!-- 상단 배너 -->
+      <a href="#"><img src="./images/top_banner.jpg" alt="top_banner"></a>
+      <!-- 유틸리티 메뉴 -->
+      <nav id="util_menu">
+        <ul>
+          <li><a href="#">LOGIN &nbsp;&nbsp;| </a></li>
+          <li><a href="#">MYPAGE &nbsp;&nbsp;| </a></li>
+          <li><a href="#">CART &nbsp;&nbsp;| </a></li>
+          <li><a href="#">ORDER &nbsp;&nbsp;| </a></li>
+          <li><a href="#"><img class="search" src="./images/search.png" alt="search"></a></li>
+        </ul>
+      </nav>
+      <!-- 로고 -->
+      <h1>
+        <a href="#">
+          <img src="./images/logo.png" alt="logo">
+        </a>
+      </h1>
+    </div>
+  </header>
+
+  <nav id="main_gnb">
+    <div class="container">
+      <button id="category_btn">
+        <img src="./images/menu.png" alt="menu">
+        <span class="txt">전체메뉴</span>
+      </button>
+
+      <ul>
+        <li><a href="#" class="pink">NEW 5%</a></li>
+        <li><a href="#" class="blue">BEST 50</a></li>
+        <li><a href="#">귀걸이</a></li>
+        <li><a href="#">귀찌</a></li>
+        <li><a href="#">목걸이</a></li>
+        <li><a href="#">반지</a></li>
+        <li><a href="#">팔찌&시계</a></li>
+        <li><a href="#">헤어</a></li>
+        <li><a href="#">기타</a></li>
+      </ul>
+
+      <button id="community_btn">
+        <img src="./images/commu.png" alt="commu">
+        <span class="txt">커뮤니티</span>
+    </div>
+  </nav>
+
+  <nav id="category">
+    <div class="container">
+      <ul>
+        <li><a  class="" href="#">NEW 5%</a></li>
+        <li><a href="#">BEST 50</a></li>
+        <li><a href="#">귀걸이</a>
+          <ul>
+            <li><a href="#">패션귀걸이</a></li>
+            <li><a href="#">실버침</a></li>
+            <li><a href="#">핸드메이드</a></li>
+            <li><a href="#">롱귀걸이</a></li>
+            <li><a href="#">러블리</a></li>
+            <li><a href="#">심플</a></li>
+          </ul>
+        </li>
+        <li><a href="#">귀찌</a>
+          <ul>
+            <li><a href="#">이어커프</a></li>
+            <li><a href="#">나사형</a></li>
+            <li><a href="#">링형</a></li>
+          </ul>
+        </li>
+        <li><a href="#">목걸이</a>
+          <ul>
+            <li><a href="#">패션목걸이</a></li>
+            <li><a href="#">초커목걸이</a></li>
+            <li><a href="#">롱목걸이</a></li>
+          </ul>
+        </li>
+        <li><a href="#">반지</a>
+          <ul>
+            <li><a href="#">은반지</a></li>
+            <li><a href="#">세트반지</a></li>
+          </ul>
+        </li>
+        <li><a href="#">팔찌</a>
+          <ul>
+            <li><a href="#">팔찌</a></li>
+            <li><a href="#">발찌</a></li>
+            <li><a href="#">시계</a></li>
+          </ul>
+        </li>
+        <li><a href="#">헤어</a>
+          <ul>
+            <li><a href="#">머리핀</a></li>
+            <li><a href="#">포니테일</a></li>
+            <li><a href="#">헤어밴드</a></li>
+            <li><a href="#">모자</a></li>
+          </ul>
+        </li>
+        <li><a href="#">기타</a>
+          <ul>
+            <li><a href="#">기타아이템</a></li>
+            <li><a href="#">키링</a></li>
+            <li><a href="#">브로치</a></li>
+            <li><a href="#">선글라스/안경</a></li>
+            <li><a href="#">폰악세사리</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="community">
+    <div class="container">
+      <ul>
+        <li><a href="#">공지사항</a></li>
+        <li><a href="#">Q&A</a></li>
+        <li><a href="#">리뷰</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="main_banner">
+    <div class="inner">
+      <div class="bx-slider">
+        <img class="img_responsive" src="./images/main_banner1.jpg" alt="1">
+        <img class="img_responsive" src="./images/main_banner2.jpg" alt="2">
+        <img class="img_responsive" src="./images/main_banner3.jpg" alt="3">
+      </div>
+    </div>
+  </section>
+
+  <section id="card">
+    <div class="container">
+      <ul>
+        <li><a href="#"><img src="./images/card1.jpg" alt="1"></a></li>
+        <li><a href="#"><img src="./images/card2.jpg" alt="2"></a></li>
+        <li><a href="#"><img src="./images/card3.jpg" alt="3"></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="best">
+    <div class="container">
+      <a href="#"><img class="list_banner" src="./images/best_banner.jpg" alt="best_banner"></a>
+
+      <ul class="item_list">
+      </ul>
+    </div>
+  </section>
+
+  <section id="new">
+    <div class="container">
+      <a href="#"><img class="list_banner" src="./images/new_banner.jpg" alt="new_banner"></a>
+
+      <ul class="item_list2">
+
+      </ul>
+
+    </div>
+  </section>
+  
+  <footer id="main_footer">
+      <div class="footer_menu">
+        <ul>
+          <li><a href="#">HOME &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+          <li><a href="#">COMPANY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+          <li><a href="#">AGREEMENT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+          <li><a href="#"><strong>PRIVACY POLICY</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+          <li><a href="#">GUIDE</a></li>
+        </ul>
+      </div>
+    <div class="container">
+      <div class="footer">
+        <div class="cs_center">
+          <h3>CS center</h3>
+          <ul>
+            <li class="call"><a href="#"><img src="./images/call.png" alt="call"></a> 1500-0000</li>
+            <li>MON-FRI 13:00 ~ 18:00</li>
+            <li>SAT, SUN, RED-DAY OFF</li>
+          </ul>
+        </div>
+        <div class="company_info">
+          <h3>Company info</h3>
+          <ul>
+            <li>회사: LUNA</li>
+            <li>대표: 루나</li>
+            <li>개인정보관리책임자: abc@naver.com</li>
+            <li><address>주소: 서울특별시 강서구 화곡 123-45</address></li>
+            <li>사업자등록번호: 123-45-67890</li>
+          </ul>
+        </div>
+        <div class="bank_info">
+          <h3>Bank info</h3>
+          <ul>
+            <li>국민 1234567-01-9987665</li>
+            <li>농협 355-0142-9987-65</li>
+            <li>신한 116-907-234561</li>
+            <li>예금주: (주)루나</li>
+          </ul>
+        </div>
+        <div class="delisns">
+          <h3>Delivery</h3>
+          <span>CJ대한통운: 1588-1255</span>
+          <h3 class="sns_h3">SNS</h3>
+          <ul>
+            <li><a href="#"><img src="./images/kakao.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/insta.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/naver.png" alt=""></a></li>
+          </ul>
+        </div>
+    </div>
+    <span class="line"></span>
+    <span class="copy">COPYRIGHT&copy;LUNA.ALL RIGHT RESERVED</span>
+  </footer>
+</body>
+</html>
