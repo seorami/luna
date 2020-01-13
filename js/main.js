@@ -3,9 +3,9 @@
 // 
 $('.container').imagesLoaded( function() {
 
-  // images have loaded
+  images have loaded
 
-  // event function()
+  event function()
 
 });
 
