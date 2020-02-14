@@ -1,14 +1,4 @@
 // main.js
-
-// 
-$('.container').imagesLoaded( function() {
-
-  images have loaded
-
-  event function()
-
-});
-
 $(function(){
   
 
